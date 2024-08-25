@@ -1,0 +1,7 @@
+-
+  desc: "查询2"
+  method: POST
+  type: page
+  uri: "/SocialFinance/sys/msg/page"
+  req_body: {"pageAble": "1", "userId": "fe9cba1cec6144acbb4c7ef9c4a3e693"}
+  expect_result: { "status_code": 200,"respCode": "00000000","respMsg": "success" }

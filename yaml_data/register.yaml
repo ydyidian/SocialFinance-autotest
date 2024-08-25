@@ -1,0 +1,15 @@
+register:
+  -
+    desc: "注册接口"
+    method: POST
+    type: sj
+    uri: "SocialInsurance/trans/queryTransCoinInfo?coinCode"
+    req_body: {"coinCode":"BTC"}
+    expect_result: {"status_code": 200,"respCode": "00000000","respMsg": "success"}
+
+  - desc: "注册接口"
+    method: POST
+    type: sj
+    uri: "SocialInsurance/trans/queryTransCoinInfo?coinCode"
+    req_body: { "coinCode": "BTC" }
+    expect_result: { "status_code": 200,"respCode": "00000000","respMsg": "success" }

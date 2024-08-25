@@ -1,0 +1,7 @@
+-
+  desc: "查询getDiscoveryArticle"
+  method: GET
+  type: getDiscoveryArticle
+  uri: "/SocialTribe/discovery/article/recommend/getDiscoveryArticle"
+  req_body:
+  expect_result: { "status_code": 200,"respCode": "00000000","respMsg": "success" }

@@ -1,0 +1,16 @@
+.side-nav__brand {
+  background: url('allure_logo.png') no-repeat left center !important;
+  margin-left: 10px;
+  height: 100px
+  background-size: contain !important;
+}
+.side-nav__brand span {
+  display: none;
+}
+
+
+.side-nav__brand:after {
+  content: "天启旭达";
+  margin-left: 15px;
+  height: 20px
+}

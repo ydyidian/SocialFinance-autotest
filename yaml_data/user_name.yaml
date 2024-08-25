@@ -1,0 +1,24 @@
+-
+  desc: "查询1"
+  method: GET
+  type: xway
+  uri: "SocialInsurance/trans/queryTransCoinInfo?coinCode"
+  req_body: { "coinCode": "BTC" }
+  expect_result: { "status_code": 200,"respCode": "00000000","respMsg": "success" }
+
+
+-
+  desc: "查询2"
+  method: GET
+  type: xway
+  uri: "SocialInsurance/trans/queryTransCoinInfo?coinCode"
+  req_body: { "coinCode": "BTC" }
+  expect_result: { "status_code": 200,"respCode": "00000000","respMsg": "success" }
+
+-
+  desc: "查询3"
+  method: GET
+  type: xway
+  uri: "SocialInsurance/trans/queryTransCoinInfo?coinCode"
+  req_body: { "coinCode": "BTC" }
+  expect_result: { "status_code": 200,"respCode": "00000000","respMsg": "success" }
